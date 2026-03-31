@@ -64,9 +64,9 @@ Ce projet démontre l'implémentation de différentes méthodes de stockage de d
 
  ◦Sauvegarder fichier JSON : Exportation des données vers un fichier physique.
  
-    <img width="146" height="289" alt="image" src="https://github.com/user-attachments/assets/45502bf9-06e5-4355-820b-bbbffb1526cb" />
+<img width="146" height="289" alt="image" src="https://github.com/user-attachments/assets/45502bf9-06e5-4355-820b-bbbffb1526cb" />
 
-    ◦Effacer : Nettoyage de l'interface et réinitialisation des champs.
+ ◦Effacer : Nettoyage de l'interface et réinitialisation des champs.
     
 <img width="146" height="303" alt="image" src="https://github.com/user-attachments/assets/2622c985-2191-4028-93fb-d3fe95ed62e4" />
 
