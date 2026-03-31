@@ -1,3 +1,4 @@
+
 # LAB 14 : Stockage de Données Sécurisé sous Android
 
 Ce projet démontre l'implémentation de différentes méthodes de stockage de données dans une application Android, en mettant l'accent sur la sécurité et la persistance des données. Il couvre l'utilisation des préférences partagées (SharedPreferences), le stockage de fichiers JSON et l'utilisation de la bibliothèque Jetpack Security.
@@ -27,7 +28,7 @@ Ce projet démontre l'implémentation de différentes méthodes de stockage de d
   
   4.Technique : Le Token est chiffré via EncryptedSharedPreferences. Même si un intrus accède aux fichiers de l'app, le Token reste illisible (chiffré en AES).
 
-<img width="149" height="300" alt="image" src="https://github.com/user-attachments/assets/f75c23d4-5a43-4f38-b566-88d6bd5cc656" />
+       <img width="149" height="300" alt="image" src="https://github.com/user-attachments/assets/f75c23d4-5a43-4f38-b566-88d6bd5cc656" />
 
 ### 3. Gestion des fichiers externes (JSON)
 
