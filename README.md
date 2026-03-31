@@ -17,9 +17,17 @@ Ce projet démontre l'implémentation de différentes méthodes de stockage de d
 
 ### 2. Stockage des Préférences (SharedPreferences)
 
-   •Implémentation d'un système pour sauvegarder le nom d'utilisateur, la langue (fr/en) et le thème (clair/sombre).
+  Guide d'utilisation :
+  
+  1.Saisissez un nom dans Nom utilisateur.
+  
+  2.Entrez une valeur secrète dans Token.
+  
+  3.Cliquez sur Sauvegarder prefs.
+  
+  4.Technique : Le Token est chiffré via EncryptedSharedPreferences. Même si un intrus accède aux fichiers de l'app, le Token reste illisible (chiffré en AES).
 
-   •Sécurisation du Token : Utilisation de EncryptedSharedPreferences pour stocker le jeton d'authentification (Token) de manière chiffrée sur l'appareil, empêchant sa lecture en clair par des applications tierces.
+<img width="149" height="300" alt="image" src="https://github.com/user-attachments/assets/f75c23d4-5a43-4f38-b566-88d6bd5cc656" />
 
 ### 3. Gestion des fichiers externes (JSON)
 
@@ -28,20 +36,34 @@ Ce projet démontre l'implémentation de différentes méthodes de stockage de d
     •Optimisation de la compatibilité : Remplacement des méthodes Files.writeString (Java 11) par Files.write pour assurer le bon fonctionnement sur les versions d'Android avec un minSdk 24.
 
     •Sérialisation et désérialisation de données utilisateur au format JSON.
-   
+
+   java
+    // Pour écrire (Sauvegarder fichier JSON)
+    Files.write(file.toPath(), content.getBytes(StandardCharsets.UTF_8));
+
+    // Pour lire (Charger fichier JSON)
+    byte[] bytes = Files.readAllBytes(file.toPath());
+
+    
 ### 4. Interface Utilisateur (UI)
 
 •Création d'une interface intuitive avec Material Design 3.
 
 •Gestion des événements sur les boutons :
     
-    ◦Sauvegarder prefs : Persistance des paramètres utilisateur.
+    <img width="153" height="304" alt="image" src="https://github.com/user-attachments/assets/223346e9-39b4-4f72-9bfa-c616a565b095" />
     
-    ◦Charger prefs : Récupération et affichage des données stockées.
-    
-    ◦Sauvegarder fichier JSON : Exportation des données vers un fichier physique.
-    
+ ◦Sauvegarder prefs : Persistance des paramètres utilisateur.
+<img width="149" height="297" alt="image" src="https://github.com/user-attachments/assets/da050eb9-f304-46e9-8a06-fd920c5ef5a1" />
+
+ ◦Charger prefs : Récupération et affichage des données stockées.
+<img width="149" height="300" alt="image" src="https://github.com/user-attachments/assets/f75c23d4-5a43-4f38-b566-88d6bd5cc656" />
+
+ ◦Sauvegarder fichier JSON : Exportation des données vers un fichier physique.
+    <img width="146" height="289" alt="image" src="https://github.com/user-attachments/assets/45502bf9-06e5-4355-820b-bbbffb1526cb" />
+
     ◦Effacer : Nettoyage de l'interface et réinitialisation des champs.
+<img width="146" height="303" alt="image" src="https://github.com/user-attachments/assets/2622c985-2191-4028-93fb-d3fe95ed62e4" />
 
 ## Technologies Utilisées
 
