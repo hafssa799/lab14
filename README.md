@@ -28,7 +28,7 @@ Ce projet démontre l'implémentation de différentes méthodes de stockage de d
   
   4.Technique : Le Token est chiffré via EncryptedSharedPreferences. Même si un intrus accède aux fichiers de l'app, le Token reste illisible (chiffré en AES).
 
-       <img width="149" height="300" alt="image" src="https://github.com/user-attachments/assets/f75c23d4-5a43-4f38-b566-88d6bd5cc656" />
+<img width="149" height="300" alt="image" src="https://github.com/user-attachments/assets/f75c23d4-5a43-4f38-b566-88d6bd5cc656" />
 
 ### 3. Gestion des fichiers externes (JSON)
 
@@ -52,18 +52,22 @@ Ce projet démontre l'implémentation de différentes méthodes de stockage de d
 
 •Gestion des événements sur les boutons :
     
-    <img width="153" height="304" alt="image" src="https://github.com/user-attachments/assets/223346e9-39b4-4f72-9bfa-c616a565b095" />
+<img width="153" height="304" alt="image" src="https://github.com/user-attachments/assets/223346e9-39b4-4f72-9bfa-c616a565b095" />
     
  ◦Sauvegarder prefs : Persistance des paramètres utilisateur.
+ 
 <img width="149" height="297" alt="image" src="https://github.com/user-attachments/assets/da050eb9-f304-46e9-8a06-fd920c5ef5a1" />
 
  ◦Charger prefs : Récupération et affichage des données stockées.
+ 
 <img width="149" height="300" alt="image" src="https://github.com/user-attachments/assets/f75c23d4-5a43-4f38-b566-88d6bd5cc656" />
 
  ◦Sauvegarder fichier JSON : Exportation des données vers un fichier physique.
+ 
     <img width="146" height="289" alt="image" src="https://github.com/user-attachments/assets/45502bf9-06e5-4355-820b-bbbffb1526cb" />
 
     ◦Effacer : Nettoyage de l'interface et réinitialisation des champs.
+    
 <img width="146" height="303" alt="image" src="https://github.com/user-attachments/assets/2622c985-2191-4028-93fb-d3fe95ed62e4" />
 
 ## Technologies Utilisées
